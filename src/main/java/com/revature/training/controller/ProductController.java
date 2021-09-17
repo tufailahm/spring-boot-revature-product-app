@@ -25,6 +25,7 @@ import com.revature.training.service.ProductService;
 @RestController
 @RequestMapping("product")
 //@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://angularproductapp.s3-website.us-east-2.amazonaws.com")
 public class ProductController {
 
 	@Autowired
